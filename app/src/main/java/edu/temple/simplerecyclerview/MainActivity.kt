@@ -9,12 +9,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // Step 1: Reference RecyclerView object
+        // TODO Step 1: Reference RecyclerView object
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerView)
 
-        //Step 2: Provide a LayoutManager
+        //TODO Step 2: Provide a LayoutManager
 
 
-        //Step 4: Provide a RecyclerView.Adapter
+        //TODO Step 4: Provide a RecyclerView.Adapter
     }
 }
